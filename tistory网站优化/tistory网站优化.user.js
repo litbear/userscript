@@ -4,8 +4,9 @@
 // @description tistory 启用邮件，查看高质量图片
 // @include     http://*.tistory.com/*
 // @include     http://cfile\d+.uf.tistory.com/*
-// @version     1
+// @version     1.1
 // @grant       none
+// @updateURL   https://github.com/litbear/userscript/raw/master/tistory%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/tistory%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96.user.js
 // ==/UserScript==
 
 (function () {
