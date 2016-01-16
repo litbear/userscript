@@ -8,7 +8,8 @@
 // @include      *.sinaimg.cn/*
 // ==/UserScript==
 
-var regex = /square|thumbnail|mw690|bmiddle/;
+var regex = /square|thumbnail|mw690|bmiddle|thumb150|sq480|small/;
 
 if (regex.test(location.href))
-	location.href = location.href.replace(regex, "large");
+//不用一一列举所有缩略图，其实分段处理就可以了
+    location.href = location.href.replace(regex, "large");
